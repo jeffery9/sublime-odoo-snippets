@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+ groups="sale_stock.group_display_incoterm"${0}
+]]></content>
+    <tabTrigger>group_display_incoterm</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+</snippet>

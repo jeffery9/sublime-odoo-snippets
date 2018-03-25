@@ -4,5 +4,5 @@ widget="${1:many2many_tags}"
 ]]></content>
     <tabTrigger>widget/many2many_tags</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget many2many_tags</description>
+    <description>widget many2many_tags</description>
 </snippet>

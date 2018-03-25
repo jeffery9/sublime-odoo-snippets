@@ -10,4 +10,5 @@ from . import ${1:models}${0}
 ]]></content>
     <tabTrigger>file/__init__</tabTrigger>
     <scope>source.python</scope>
+    <description>__init__ file</description>
 </snippet>

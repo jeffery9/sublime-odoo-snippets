@@ -3,7 +3,7 @@
 <field name="${1:name}" class="${2:oe_inline}"${4:
     placeholder="${3:Enter new value for ${1/((^.)|(_+))/(?2:\u$2)(?3:\ )/g}}"} />${0}
 ]]></content>
-    <tabTrigger>field</tabTrigger>
+    <tabTrigger>field/inline</tabTrigger>
     <scope>text.xml</scope>
     <description>Inline field tag</description>
 </snippet>

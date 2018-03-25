@@ -17,7 +17,7 @@
     domain="${14:[]}"
     context="${15:\{\}}" />${0}
 ]]></content>
-    <tabTrigger>field</tabTrigger>
+    <tabTrigger>field/full</tabTrigger>
     <scope>text.xml</scope>
     <description>Full field tag</description>
 </snippet>

@@ -3,7 +3,7 @@
 limit=${1:80}${0}
 ]]></content>
     <tabTrigger>limit</tabTrigger>
-    <scope>source.python meta.function-call.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python</scope>
     <description>Field attribute: limit</description>
 </snippet>
 

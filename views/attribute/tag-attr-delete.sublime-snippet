@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-delete="${1:0}"${0}
+delete="${1:false}"${0}
 ]]></content>
     <tabTrigger>delete</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>

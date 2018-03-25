@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+_parent_store = ${1:True}
+${0}
+
+parent_left = fields.Integer('Left Parent', index=1)
+parent_right = fields.Integer('Right Parent', index=1)
+
+]]></content>
+    <tabTrigger>feature/parent_child</tabTrigger>
+    <scope>source.python</scope>
+    <description>Adds the _parent_store attribute and parent_left and parent_right</description>
+</snippet>

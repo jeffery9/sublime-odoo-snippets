@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-    @api.multi
-    def unlink(self):
-        for record in self:
-            if record.state not in ('draft'):
-                raise UserError(
-                    u'不可以删除非草稿状态的单据!'
-                )
-        return super(ModelClass, self).unlink()
+@api.multi
+def unlink(self):
+    for record in self:
+        if record.state not in ('draft'):
+            raise UserError(
+                'You cannot delete a document which is not draft or cancelled!'
+            )
+    return super(ModelClass, self).unlink()
 ]]></content>
     <tabTrigger>method/unlink_restrict</tabTrigger>
     <scope>source.python</scope>

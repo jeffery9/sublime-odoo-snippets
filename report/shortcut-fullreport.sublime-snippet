@@ -71,7 +71,7 @@
     <field name="key2">client_print_multi</field>
 </record>
 ]]></content>
-    <tabTrigger>fullreport</tabTrigger>
+    <tabTrigger>report_fullreport</tabTrigger>
     <scope>text.xml</scope>
     <description>Report: document and translation; action.report.xml and ir.values</description>
 </snippet>

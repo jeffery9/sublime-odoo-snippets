@@ -4,5 +4,5 @@ widget="${1:toggle_button}"
 ]]></content>
     <tabTrigger>widget/toggle_button</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget toggle_button</description>
+    <description>widget toggle_button</description>
 </snippet>

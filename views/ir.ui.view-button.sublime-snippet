@@ -9,7 +9,7 @@
         confirm="${10:message}"}${13:
         help="${12:message}"} />
 ]]></content>
-    <tabTrigger>button</tabTrigger>
+    <tabTrigger>button/full</tabTrigger>
     <scope>text.xml</scope>
         <description>Common button tag definition</description>
 </snippet>

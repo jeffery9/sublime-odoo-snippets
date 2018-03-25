@@ -3,7 +3,7 @@
 auto_join=${1:False}${0}
 ]]></content>
     <tabTrigger>auto_join</tabTrigger>
-    <scope>source.python meta.function-call.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python</scope>
     <description>Field attribute: auto_join</description>
 </snippet>
 

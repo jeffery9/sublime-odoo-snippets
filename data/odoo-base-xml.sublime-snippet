@@ -9,7 +9,7 @@
     </data>
 </odoo>
 ]]></content>
-    <tabTrigger>file/data</tabTrigger>
+    <tabTrigger>file/xml</tabTrigger>
     <scope>text.xml</scope>
     <description>Common base XML structure to be used in Odoo module data files</description>
 </snippet>

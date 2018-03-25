@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+<separator string="Some Text" colspan="4" />
+    ${0}
+]]></content>
+    <tabTrigger>separator</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Common separator tag to be added inside a ir.ui.view</description>
+</snippet>

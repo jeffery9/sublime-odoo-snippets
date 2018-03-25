@@ -4,5 +4,5 @@ widget="${1:ace}"
 ]]></content>
     <tabTrigger>widget/ace</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget ace editor</description>
+    <description>widget ace editor</description>
 </snippet>

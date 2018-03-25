@@ -2,7 +2,7 @@
     <content><![CDATA[
 'required': [('state','not in',('draft'))] ${0}
 ]]></content>
-    <tabTrigger>required</tabTrigger>
+    <tabTrigger>attrs/required</tabTrigger>
     <scope>text.xml meta.tag.xml string.quoted.double.xml</scope>
     <description>field attr attrs required</description>
 </snippet>

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-${1:field_name} = fields.One2many(
-    string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
+${1:field_name}_ids = fields.One2many(
+    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
     comodel_name='${8:model.name}',
     inverse_name='${9:inverse_field}',
 )${0}

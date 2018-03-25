@@ -4,7 +4,7 @@
 def toggle_active(self):
     return {'warning': {
                     'title': _("Warning"),
-                    'message': _(u"不允许对此模型的记录进行“归档”操作！") ,
+                    'message': _(u"It is not allowed to "archive" records of this model!") ,
     }}
 ${0}
 ]]></content>

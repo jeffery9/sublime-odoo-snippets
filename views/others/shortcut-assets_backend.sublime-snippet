@@ -16,7 +16,7 @@
     </field>
 </record>
 ]]></content>
-    <tabTrigger>record/qweb</tabTrigger>
+    <tabTrigger>record/assets</tabTrigger>
     <scope>text.xml</scope>
     <description>Include module assets in backend views</description>
 </snippet>

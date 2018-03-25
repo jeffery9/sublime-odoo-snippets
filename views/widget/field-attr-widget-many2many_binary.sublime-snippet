@@ -4,5 +4,5 @@ widget="${1:many2many_binary}"
 ]]></content>
     <tabTrigger>widget/many2many_binary</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget many2many_binary</description>
+    <description>widget many2many_binary</description>
 </snippet>

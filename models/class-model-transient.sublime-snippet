@@ -1,16 +1,12 @@
 <snippet>
     <content><![CDATA[
 class ${1:ModelName}(models.TransientModel):
-    """ ${2:The summary line for a class docstring should fit on one line.}
-
-    """
-
     _name = '${3:${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}}'
-    _description = u'${4:${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \u$3)/g}}'
+    _description = '${4:${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \u$3)/g}}'
 
     ${0}
 ]]></content>
-    <tabTrigger>model</tabTrigger>
+    <tabTrigger>model/transient</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo transient model class</description>
 </snippet>

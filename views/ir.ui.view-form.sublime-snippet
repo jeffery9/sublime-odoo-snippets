@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<form string="${1:Caption}" create="${2:1}" delete="${3:1}" edit="${4:1}">
+<form string="${1:Caption}" create="${2:true}" delete="${3:true}" edit="${4:true}">
     <sheet>
         <div class="oe_title">
             <label for="${5:name}" class="oe_edit_only" />
@@ -10,7 +10,7 @@
     </sheet>
 </form>
 ]]></content>
-    <tabTrigger>form</tabTrigger>
+    <tabTrigger>arch/form</tabTrigger>
     <scope>text.xml</scope>
     <description>Common form tag to be added inside a ir.ui.view</description>
 </snippet>

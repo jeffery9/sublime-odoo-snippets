@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 state = fields.Selection(
-    string=u'State',
+    string='State',
     selection=[('draft', 'Draft'), ('confirmed', 'Confirmed'),  ('close', 'Close'),  ('cancel', 'Cancel')],
     default='draft',
     readonly=True,
@@ -25,7 +25,7 @@ def action_close(self):
 
 ${0}
 ]]></content>
-    <tabTrigger>model/states</tabTrigger>
+    <tabTrigger>feature/state</tabTrigger>
     <scope>source.python</scope>
     <description>Adds state support</description>
 </snippet>

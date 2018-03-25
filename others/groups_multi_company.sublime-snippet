@@ -2,6 +2,6 @@
     <content><![CDATA[
  groups="base.group_multi_company"${0}
 ]]></content>
-    <tabTrigger>groups/multi_company</tabTrigger>
-    <scope>text.xml</scope>
+    <tabTrigger>group_multi_company</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
 </snippet>

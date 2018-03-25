@@ -4,5 +4,5 @@ widget="${1:percentpie}"
 ]]></content>
     <tabTrigger>widget/percentpie</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget percentpie</description>
+    <description>widget percentpie</description>
 </snippet>

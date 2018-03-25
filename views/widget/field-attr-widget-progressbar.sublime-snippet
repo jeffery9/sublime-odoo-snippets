@@ -4,5 +4,5 @@ widget="${1:progressbar}"
 ]]></content>
     <tabTrigger>widget/progressbar</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget progressbar</description>
+    <description>widget progressbar</description>
 </snippet>

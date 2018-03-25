@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-line_number = fields.Integer(string=u'行号', default=10)
+line_number = fields.Integer(string='Line Number', default=10)
 
 @api.model
 def default_get(self, fields):

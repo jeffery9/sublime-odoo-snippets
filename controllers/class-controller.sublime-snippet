@@ -12,7 +12,7 @@ class ${1:ControllerName}(Controller):
 
         pass${0}
 ]]></content>
-    <tabTrigger>controller</tabTrigger>
+    <tabTrigger>controller/controller</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo web controller class</description>
 </snippet>

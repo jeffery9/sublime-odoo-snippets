@@ -1,11 +1,11 @@
 <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Many2many(
-    string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
+${1:field_name}_ids = fields.Many2many(
+    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
     comodel_name='${8:model.name}',
-    relation='${9:${8/\./_/g}_this_model_rel}',
-    column1='${10:${8/\./_/g}_id}',
-    column2='${11:this_model_id}',
+    relation='${10:${8/\./_/g}_${9:this_model}_rel}',
+    column1='${11:${8/\./_/g}_id}',
+    column2='${12:${9}_id}',
 )${0}
 ]]></content>
     <tabTrigger>fields.Many2many</tabTrigger>

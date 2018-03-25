@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+ groups="stock.group_stock_multi_locations"${0}
+]]></content>
+    <tabTrigger>group_stock_multi_locations</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+</snippet>

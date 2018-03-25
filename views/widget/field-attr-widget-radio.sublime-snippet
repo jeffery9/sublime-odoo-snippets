@@ -4,5 +4,5 @@ widget="${1:radio}"
 ]]></content>
     <tabTrigger>widget/radio</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget radio</description>
+    <description>widget radio</description>
 </snippet>

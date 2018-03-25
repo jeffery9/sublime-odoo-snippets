@@ -3,7 +3,7 @@
 (required, True)${0}
 ]]></content>
     <tabTrigger>states/required</tabTrigger>
-    <scope>source.python meta.function-call.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python</scope>
     <description>Field attribute: states state required</description>
 </snippet>
 

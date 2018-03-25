@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-<button name="${1:function_name}" string="${2:string}" ${4:type="${3:object}"} ${5:special="cancel"} />
+<button name="${1:function_name}" string="${2:string}" ${4:type="${3:object}"} class="oe_highlight"/>
 ]]></content>
-    <tabTrigger>button</tabTrigger>
+    <tabTrigger>button/inline</tabTrigger>
     <scope>text.xml</scope>
         <description>Inline button tag definition</description>
 </snippet>

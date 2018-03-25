@@ -4,5 +4,5 @@ widget="${1:many2many_kanban}"
 ]]></content>
     <tabTrigger>widget/many2many_kanban</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr widget many2many_kanban</description>
+    <description>widget many2many_kanban</description>
 </snippet>

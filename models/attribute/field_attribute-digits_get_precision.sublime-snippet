@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+digits=dp.get_precision('Product Price')
+]]></content>
+    <tabTrigger>digits/get_precision</tabTrigger>
+    <scope>source.python meta.function-call.arguments.python</scope>
+    <description>Field attribute: digits</description>
+</snippet>
+

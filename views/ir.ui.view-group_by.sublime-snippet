@@ -6,6 +6,6 @@
 </group>
 
 ]]></content>
-    <tabTrigger>group_by</tabTrigger>
+    <tabTrigger>search/group_by</tabTrigger>
     <scope>text.xml</scope>
 </snippet>
