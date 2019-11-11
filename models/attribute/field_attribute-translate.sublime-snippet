@@ -3,7 +3,7 @@
 translate=${1:False}${0}
 ]]></content>
     <tabTrigger>translate</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
     <description>Field attribute: translate</description>
 </snippet>
 

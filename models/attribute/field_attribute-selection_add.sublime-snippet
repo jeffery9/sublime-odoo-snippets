@@ -3,6 +3,6 @@
 selection_add=[('${1:draft}', ${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g})${0}]
 ]]></content>
     <tabTrigger>selection_add</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
     <description>Field attribute: selection_add </description>
 </snippet>

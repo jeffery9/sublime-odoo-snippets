@@ -3,6 +3,6 @@
 default='_default_${1:field}'${0}
 ]]></content>
     <tabTrigger>default</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
     <description>Field attribute: search, lambda function</description>
 </snippet>

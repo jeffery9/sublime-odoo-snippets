@@ -3,6 +3,6 @@
 company_dependent=${1:True}${0}
 ]]></content>
     <tabTrigger>company_dependent</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
     <description>Field attribute: company_dependent</description>
 </snippet>

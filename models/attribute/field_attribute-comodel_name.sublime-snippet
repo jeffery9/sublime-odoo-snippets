@@ -3,7 +3,7 @@
 comodel_name='${1:model_name}'${0}
 ]]></content>
     <tabTrigger>comodel_name</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
     <description>Field attribute: comodel_name</description>
 </snippet>
 

@@ -3,7 +3,7 @@
 digits=(${1:16}, ${2:2})
 ]]></content>
     <tabTrigger>digits</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python</scope>
+    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
     <description>Field attribute: digits</description>
 </snippet>
 
