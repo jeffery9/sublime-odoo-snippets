@@ -3,7 +3,7 @@
 required=${1:True}${0}
 ]]></content>
     <tabTrigger>required</tabTrigger>
-    <scope>source.python meta.function-call.arguments.python variable.parameter.python</scope>
+    <scope>source.python meta.function-call.arguments.python</scope>
     <description>Field attribute: required</description>
 </snippet>
 
