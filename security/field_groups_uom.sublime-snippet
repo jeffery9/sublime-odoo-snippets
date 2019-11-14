@@ -3,5 +3,5 @@
 <field name="groups_id" eval="[(4, ref('uom.group_uom'))]"/>${0}
 ]]></content>
     <tabTrigger>field_group_uom</tabTrigger>
-    <scope>text.xml meta.tag.xml</scope>
+    <scope>text.xml</scope>
 </snippet>

@@ -3,5 +3,5 @@
 <field name="groups_id" eval="[(4, ref('stock.group_tracking_owner'))]"/>${0}
 ]]></content>
     <tabTrigger>field_group_tracking_owner</tabTrigger>
-    <scope>text.xml meta.tag.xml</scope>
+   <scope>text.xml</scope>
 </snippet>
