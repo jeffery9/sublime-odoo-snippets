@@ -2,7 +2,7 @@
     <content><![CDATA[
 <field name="${1:name}">${2:value}</field>${0}
 ]]></content>
-    <tabTrigger>fields/Selection</tabTrigger>
+    <tabTrigger>field/selection</tabTrigger>
     <scope>text.xml</scope>
     <description>Common XML tag for field type Selection</description>
 </snippet>
