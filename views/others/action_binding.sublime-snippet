@@ -3,7 +3,7 @@
 <field name="binding_model_id" ref="${1:module.model_model_name}" />
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>action_binding</tabTrigger>
+    <tabTrigger>action/binding</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
     <description>Fully formated time relative to now</description>

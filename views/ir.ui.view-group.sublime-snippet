@@ -7,6 +7,6 @@
 </group>
 
 ]]></content>
-    <tabTrigger>group</tabTrigger>
+    <tabTrigger>layout/group</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

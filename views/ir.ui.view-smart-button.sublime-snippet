@@ -1,13 +1,11 @@
 <snippet>
     <content><![CDATA[
-<div class="oe_button_box" name="button_box">
     <button class="oe_stat_button" name="${1:action_name}" type="object" icon="fa-${4:search}">
         <field string="${2:string}" name="${3:count_name}" widget="statinfo" />
     </button>
 ${0}
-</div>
 ]]></content>
-    <tabTrigger>button/smart</tabTrigger>
+    <tabTrigger>smart_button</tabTrigger>
     <scope>text.xml</scope>
         <description>smart button definition</description>
 </snippet>

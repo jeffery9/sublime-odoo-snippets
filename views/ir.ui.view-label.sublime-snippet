@@ -2,7 +2,7 @@
     <content><![CDATA[
 <label for='${1:field_name}'>${2:Label}</label>
 ]]></content>
-    <tabTrigger>label</tabTrigger>
+    <tabTrigger>layout/label</tabTrigger>
     <scope>text.xml</scope>
         <description>Field Label</description>
 </snippet>

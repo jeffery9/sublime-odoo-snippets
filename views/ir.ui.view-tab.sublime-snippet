@@ -4,6 +4,6 @@
     ${0}
 </page>
 ]]></content>
-    <tabTrigger>page</tabTrigger>
+    <tabTrigger>notebook/page</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

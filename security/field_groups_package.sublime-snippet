@@ -2,6 +2,6 @@
     <content><![CDATA[
 <field name="groups_id" eval="[(4, ref('stock.group_tracking_lot'))]"/>${0}
 ]]></content>
-    <tabTrigger>field_group_tracking_lot</tabTrigger>
+    <tabTrigger>field_group_ids/tracking_lot</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

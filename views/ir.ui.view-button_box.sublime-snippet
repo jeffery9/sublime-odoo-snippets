@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+<div class="oe_button_box" name="button_box">
+
+${0}
+</div>
+]]></content>
+    <tabTrigger>layout/button_box</tabTrigger>
+    <scope>text.xml</scope>
+        <description>layout button_box definition</description>
+</snippet>
