@@ -1,0 +1,23 @@
+<snippet>
+    <content>
+        <![CDATA[
+
+    <act_window
+        id="act_${1:action_id}"
+        name="${2:Action Name}"
+        res_model="${4:module.model_${3:model_id}}"
+        view_mode="form"
+        view_id="${6:module.view_${5:view_id}}"/>
+
+        ${0}
+]]>
+    </content>
+    <tabTrigger>act_window</tabTrigger>
+    <scope>text.xml</scope>
+    <description>shortcut ir.actions.act_window</description>
+</snippet>
+<!-- 
+        binding_model="${4:module.model}"
+        binding_views="form"/>
+
+         -->

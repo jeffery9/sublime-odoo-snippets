@@ -6,5 +6,5 @@
     <tabTrigger>action/binding</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>text.xml</scope>
-    <description>Fully formated time relative to now</description>
+    <description>Action Binding v12</description>
 </snippet>
