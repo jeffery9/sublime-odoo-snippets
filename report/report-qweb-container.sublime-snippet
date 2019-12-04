@@ -13,7 +13,7 @@
     </t>
 </t>
 ]]></content>
-    <tabTrigger>report_t</tabTrigger>
+    <tabTrigger>report/t</tabTrigger>
     <scope>text.xml</scope>
     <description>Report qweb container</description>
 </snippet>

@@ -4,7 +4,7 @@ ${1:field_name} = fields.Char(
     string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
 )${0}
 ]]></content>
-    <tabTrigger>fields.Char</tabTrigger>
+    <tabTrigger>fields/Char</tabTrigger>
     <scope>source.python</scope>
     <descriptio>Field type: Char</description>
 </snippet>

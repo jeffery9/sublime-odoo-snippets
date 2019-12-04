@@ -2,7 +2,7 @@
     <content><![CDATA[
 t-att-${1:name}="${2:value}"
 ]]></content>
-    <tabTrigger>qweb_t-att</tabTrigger>
+    <tabTrigger>qweb/t-att</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb named attribute</description>
 </snippet>

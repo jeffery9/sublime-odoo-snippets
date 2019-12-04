@@ -4,5 +4,5 @@ position="${1:inside}"${0}
 ]]></content>
     <tabTrigger>position/inside</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>xpath position/inside</description>
+    <description>insert tag inside</description>
 </snippet>

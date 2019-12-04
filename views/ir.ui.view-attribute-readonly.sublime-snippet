@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<attribute name="readonly">${1:True}</attribute>${0}
-]]></content>
-    <tabTrigger>attribute/readonly</tabTrigger>
-    <scope>text.xml</scope>
-</snippet>

@@ -8,7 +8,7 @@ ${1:field_name}_ids = fields.Many2many(
     column2='${12:${9}_id}',
 )${0}
 ]]></content>
-    <tabTrigger>fields.Many2many</tabTrigger>
+    <tabTrigger>fields/Many2many</tabTrigger>
     <scope>source.python</scope>
     <descriptio>Field type: Many2many</description>
 </snippet>

@@ -4,6 +4,6 @@
 ]]></content>
     <tabTrigger>states/readonly</tabTrigger>
     <scope>source.python meta.function-call.arguments.python</scope>
-    <description>Field attribute: states state readonly</description>
+    <description>Field attribute: states element state readonly</description>
 </snippet>
 

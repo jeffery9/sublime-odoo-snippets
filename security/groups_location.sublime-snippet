@@ -2,6 +2,6 @@
     <content><![CDATA[
  groups="stock.group_stock_multi_locations"${0}
 ]]></content>
-    <tabTrigger>group_stock_multi_locations</tabTrigger>
+    <tabTrigger>group/stock_multi_locations</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
 </snippet>

@@ -4,7 +4,7 @@
     ${0:console.log("Foo is", ctx.foo);}
 </t>
 ]]></content>
-    <tabTrigger>qweb_t-js</tabTrigger>
+    <tabTrigger>qweb/t-js</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb javascript</description>
 </snippet>

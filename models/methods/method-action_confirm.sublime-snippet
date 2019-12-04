@@ -3,7 +3,7 @@
 @api.multi
 def action_confirm(self):
     for record in self:
-        record.write( { '${1:field}': '${2:value}'})
+        record.write( { '${1:state}': '${2:confirmed}'})
     return True
 ${0}
 ]]></content>

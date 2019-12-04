@@ -7,5 +7,5 @@ class ${1:ModelName}(models.AbstractModel):
 ]]></content>
     <tabTrigger>model/abstract</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo abstract model class</description>
+    <description>Odoo abstract Model Class</description>
 </snippet>

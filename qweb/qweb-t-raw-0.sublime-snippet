@@ -2,7 +2,7 @@
     <content><![CDATA[
 <t t-raw="0" />
 ]]></content>
-    <tabTrigger>qweb_t-raw</tabTrigger>
+    <tabTrigger>qweb/t-raw</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb template from context</description>
 </snippet>

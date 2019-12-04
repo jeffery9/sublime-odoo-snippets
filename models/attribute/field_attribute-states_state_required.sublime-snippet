@@ -4,6 +4,6 @@
 ]]></content>
     <tabTrigger>states/required</tabTrigger>
     <scope>source.python meta.function-call.arguments.python</scope>
-    <description>Field attribute: states state required</description>
+    <description>Field attribute: states element state required</description>
 </snippet>
 

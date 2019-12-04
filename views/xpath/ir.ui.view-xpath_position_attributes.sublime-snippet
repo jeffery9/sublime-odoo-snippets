@@ -4,5 +4,5 @@ position="${1:attributes}"${0}
 ]]></content>
     <tabTrigger>position/attributes</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>xpath position/attributes</description>
+    <description>setup attribute for tag</description>
 </snippet>

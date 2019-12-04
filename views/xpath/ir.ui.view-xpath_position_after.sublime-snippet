@@ -4,5 +4,5 @@ position="${1:after}"${0}
 ]]></content>
     <tabTrigger>position/after</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>xpath position/after</description>
+    <description>insert tag after</description>
 </snippet>

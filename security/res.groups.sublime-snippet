@@ -8,7 +8,7 @@
     <field name="users" eval="[(5, ref('${6:base.user_root}'))]" />
 </record>${0}
 ]]></content>
-    <tabTrigger>record/res.groups</tabTrigger>
+    <tabTrigger>record/group</tabTrigger>
     <scope>text.xml</scope>
     <description>XML res.groups record</description>
 </snippet>

@@ -1,6 +1,8 @@
 <snippet>
     <content><![CDATA[
-    compute='_compute_${1:field}' )
+    compute='_compute_${1:field}' 
+
+)
 
 @api.depends('${2:depends}')
 def _compute_${1:field}(self):

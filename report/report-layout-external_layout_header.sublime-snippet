@@ -4,7 +4,7 @@
     ${0}
 </t>
 ]]></content>
-    <tabTrigger>report_layout</tabTrigger>
+    <tabTrigger>report/layout</tabTrigger>
     <scope>text.xml</scope>
     <description>Report external_layout_header</description>
 </snippet>

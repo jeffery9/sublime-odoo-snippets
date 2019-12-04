@@ -2,6 +2,6 @@
     <content><![CDATA[
  groups="base.group_system"${0}
 ]]></content>
-    <tabTrigger>group_system</tabTrigger>
+    <tabTrigger>group/system</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
 </snippet>

@@ -4,5 +4,5 @@ create="${1:false}"${0}
 ]]></content>
     <tabTrigger>create</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>tag attr create</description>
+    <description>arch attr create</description>
 </snippet>

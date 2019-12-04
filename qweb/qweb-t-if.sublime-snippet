@@ -4,7 +4,7 @@
     ${0}
 </t>
 ]]></content>
-    <tabTrigger>qweb_t-if</tabTrigger>
+    <tabTrigger>qweb/t-if</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb conditional</description>
 </snippet>

@@ -9,7 +9,7 @@
     - Parent menu ··: ${6:base.menu_custom}
     - View priority·: ${7:16}    
     - Sequence····..: ${8:10}
-    - Action help···: ${9:Something about ${2/(.)/$1/g}}
+    - Action help···: ${9:Something about ${1}}
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
 
 <!-- Tree view for "${2/(.)/\1/g}" -->
@@ -85,9 +85,9 @@
     <field name="search_view_id" ref="view_${2/\./\_/g}_search" />
     <field name="help" type="html">
         <p class="oe_view_nocontent_create">
-            Click to add new ${1/(.)/\1/g}
+            Click to add new ${1}
         </p><p>
-            ${9:Something about ${2/(.)/$1/g}}
+            ${9:Something about ${1}}
         </p>
     </field>
 </record>

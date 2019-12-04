@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-from datetime import date, datetime
+import calendar
+from datetime import timedelta, datetime
 from dateutil.relativedelta import relativedelta
 from odoo.tools import DEFAULT_SERVER_DATE_FORMAT as DATE_FORMAT
 from odoo.tools import DEFAULT_SERVER_DATETIME_FORMAT as DATETIME_FORMAT

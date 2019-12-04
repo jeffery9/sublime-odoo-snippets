@@ -4,6 +4,6 @@ domain=lambda self: self._get_${1:field}_domain}()
 ]]></content>
     <tabTrigger>domain</tabTrigger>
     <scope>source.python meta.function-call.arguments.python</scope>
-    <description>Field attribute: domain lambda</description>
+    <description>Field attribute: domain lambda function</description>
 </snippet>
 

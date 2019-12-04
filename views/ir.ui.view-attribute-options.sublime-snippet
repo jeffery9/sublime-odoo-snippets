@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-<attribute name="options">{${1:KEY}:${2:VALUE}}</attribute>${0}
-]]></content>
-    <tabTrigger>attribute/options</tabTrigger>
-    <scope>text.xml</scope>
-</snippet>

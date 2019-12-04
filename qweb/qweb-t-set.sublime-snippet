@@ -4,7 +4,7 @@
     ${0}
 </t>
 ]]></content>
-    <tabTrigger>qweb_t-set</tabTrigger>
+    <tabTrigger>qweb/t-set</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb variable</description>
 </snippet>

@@ -12,7 +12,7 @@
     <field name="active" eval="${10:True}" />
 </record>${0}
 ]]></content>
-    <tabTrigger>record/ir.rule</tabTrigger>
+    <tabTrigger>record/rule</tabTrigger>
     <scope>text.xml</scope>
     <description>XML ir.rule record</description>
 </snippet>

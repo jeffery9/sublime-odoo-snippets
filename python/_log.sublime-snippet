@@ -13,7 +13,7 @@ def _log(self, level, msg_format, *args, **kwargs):
     msg = msg_format.format(*args, **kwargs)
     log(msg)
 ]]></content>
-    <tabTrigger>def/log</tabTrigger>
+    <tabTrigger>method/log</tabTrigger>
     <scope>source.python</scope>
     <description>Common logging log method</description>
 </snippet>

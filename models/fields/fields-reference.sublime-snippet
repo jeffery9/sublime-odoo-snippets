@@ -5,7 +5,7 @@ ${1:field_name}_ref = fields.Reference(
     selection=[('${8:model.name}', '${9:String}'),('${10:model.name}', '${11:String}')]
 )${0}
 ]]></content>
-    <tabTrigger>fields.Reference</tabTrigger>
+    <tabTrigger>fields/Reference</tabTrigger>
     <scope>source.python</scope>
     <descriptio>Field type: Reference</description>
 </snippet>

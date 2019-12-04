@@ -2,7 +2,7 @@
     <content><![CDATA[
 <t t-call="${1:template}" />${0}
 ]]></content>
-    <tabTrigger>qweb_t-call</tabTrigger>
+    <tabTrigger>qweb/t-call</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb inline call template</description>
 </snippet>

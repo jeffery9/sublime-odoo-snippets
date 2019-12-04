@@ -4,5 +4,5 @@ delete="${1:false}"${0}
 ]]></content>
     <tabTrigger>delete</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>tag attr delete</description>
+    <description>arch attr delete</description>
 </snippet>

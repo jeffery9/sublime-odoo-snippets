@@ -2,6 +2,6 @@
     <content><![CDATA[
  <field name="groups_id" eval="[(4, ref('base.group_multi_company'))]"/>${0}
 ]]></content>
-    <tabTrigger>field_group_ids/multi_company</tabTrigger>
+    <tabTrigger>field/group_ids/multi_company</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

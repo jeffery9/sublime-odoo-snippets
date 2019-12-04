@@ -7,7 +7,7 @@ company_id = fields.Many2one(
     default=lambda self: self.env.user.company_id
 )
 ]]></content>
-    <tabTrigger>field.company_id</tabTrigger>
+    <tabTrigger>field/company_id</tabTrigger>
     <scope>source.python</scope>
     <descriptio>Field company_id</description>
 </snippet>

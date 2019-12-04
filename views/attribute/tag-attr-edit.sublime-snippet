@@ -4,5 +4,5 @@ edit="${1:false}"${0}
 ]]></content>
     <tabTrigger>edit</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>tag attr edit</description>
+    <description>arch attr edit</description>
 </snippet>

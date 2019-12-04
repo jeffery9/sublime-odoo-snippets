@@ -4,5 +4,5 @@ duplicate="${1:false}"${0}
 ]]></content>
     <tabTrigger>duplicate</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>tag attr duplicate</description>
+    <description>arch attr duplicate</description>
 </snippet>

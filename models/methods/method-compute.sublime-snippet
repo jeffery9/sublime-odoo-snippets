@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-@api.depends('${2:depends}')
+@api.depends('${2:depends_field}')
 def _compute_${1:field}(self):
     for record in self:
-        ${4:record.${1:field} = ${3:something}}
+        ${4:record.${1:field} = ${3:Something}}
 ${0}
 ]]></content>
     <tabTrigger>method/compute</tabTrigger>

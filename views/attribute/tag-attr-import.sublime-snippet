@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+import="${1:false}"${0}
+]]></content>
+    <tabTrigger>import</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>arch attr import v13</description>
+</snippet>

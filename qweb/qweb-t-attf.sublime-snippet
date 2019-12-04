@@ -2,7 +2,7 @@
     <content><![CDATA[
 t-attf-${1:name}="${2:format_string}"
 ]]></content>
-    <tabTrigger>qweb_t-attf</tabTrigger>
+    <tabTrigger>qweb/t-attf</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb format string attribute</description>
 </snippet>

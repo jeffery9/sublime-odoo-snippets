@@ -7,5 +7,5 @@ class ${1:ModelName}(models.Model):
 ]]></content>
     <tabTrigger>model/inherit</tabTrigger>
     <scope>source.python</scope>
-    <description>Odoo inherit model class</description>
+    <description>Odoo inherit Model Class</description>
 </snippet>

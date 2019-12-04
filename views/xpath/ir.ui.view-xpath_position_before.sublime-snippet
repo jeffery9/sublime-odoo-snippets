@@ -4,5 +4,5 @@ position="${1:before}"${0}
 ]]></content>
     <tabTrigger>position/before</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>xpath position/before</description>
+    <description>insert tag before</description>
 </snippet>

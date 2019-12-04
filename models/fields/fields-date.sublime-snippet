@@ -5,7 +5,7 @@ ${1:field_name} = fields.Date(
     default=${6:fields.Date.context_today},
 )${0}
 ]]></content>
-    <tabTrigger>fields.Date</tabTrigger>
+    <tabTrigger>fields/Date</tabTrigger>
     <scope>source.python</scope>
     <descriptio>Field type: Date</description>
 </snippet>

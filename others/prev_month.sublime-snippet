@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+previous_month = fields.Date.today() + relativedelta(months=-1)
+${0}
+]]></content>
+    <tabTrigger>oovar/previous_month</tabTrigger>
+    <scope>source.python</scope>
+    <description>import date and time tools</description>
+</snippet>

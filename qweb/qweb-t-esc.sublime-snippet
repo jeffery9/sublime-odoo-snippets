@@ -2,7 +2,7 @@
     <content><![CDATA[
 <t t-esc="${1:value}" />
 ]]></content>
-    <tabTrigger>qweb_t-esc</tabTrigger>
+    <tabTrigger>qweb/t-esc</tabTrigger>
     <scope>text.xml</scope>
     <description>Qweb data output</description>
 </snippet>

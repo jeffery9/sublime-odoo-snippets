@@ -11,7 +11,7 @@
     <field name="active" eval="${7:True}" />
 </record>${0}
 ]]></content>
-    <tabTrigger>record/ir.model.access</tabTrigger>
+    <tabTrigger>record/acl</tabTrigger>
     <scope>text.xml</scope>
     <description>XML ir.model.access record</description>
 </snippet>

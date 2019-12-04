@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+export_xlsx="${1:false}"${0}
+]]></content>
+    <tabTrigger>export_xlsx</tabTrigger>
+    <scope>text.xml meta.tag.xml</scope>
+    <description>arch attr export_xlsx v13</description>
+</snippet>

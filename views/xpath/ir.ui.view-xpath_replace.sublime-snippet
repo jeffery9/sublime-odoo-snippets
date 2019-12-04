@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<xpath expr="${1://field[@name='name']}" position="${2:replace}">
+    ${0}
+</xpath>
+]]></content>
+    <tabTrigger>xpath/replace</tabTrigger>
+    <scope>text.xml</scope>
+    <description>replace tag</description>
+</snippet>
