@@ -4,6 +4,8 @@
 def _check_${1}(self):
     for record in self:
         ${0}
+        raise UserError(_('${1:error message %s}')%(${3:record.${2:field}}))
+
 ]]></content>
     <tabTrigger>model/constraints</tabTrigger>
     <scope>source.python</scope>

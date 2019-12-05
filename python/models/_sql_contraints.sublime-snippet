@@ -4,7 +4,7 @@ _sql_constraints = [
     (
         '${1:name}',
         '${2:constraint}',
-        _('${3:message}')
+        '${3:message}'
     )${4}
 ]${0}
 ]]></content>
