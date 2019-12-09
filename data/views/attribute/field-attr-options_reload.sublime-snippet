@@ -2,7 +2,7 @@
     <content><![CDATA[
 'reload_whole_on_button': True${0}
 ]]></content>
-    <tabTrigger>options/reload_whole_on_button</tabTrigger>
+    <tabTrigger>option/reload_whole_on_button</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr options reload_whole_on_button</description>
+    <description>field attr option reload_whole_on_button</description>
 </snippet>

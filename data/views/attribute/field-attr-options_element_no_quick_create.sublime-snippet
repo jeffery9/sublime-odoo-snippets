@@ -2,7 +2,7 @@
     <content><![CDATA[
 'no_quick_create': True${0}
 ]]></content>
-    <tabTrigger>options/no_quick_create</tabTrigger>
+    <tabTrigger>option/no_quick_create</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr options no_quick_create</description>
+    <description>field attr option no_quick_create</description>
 </snippet>

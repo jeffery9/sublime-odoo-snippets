@@ -2,7 +2,7 @@
     <content><![CDATA[
 'always_reload': True${0}
 ]]></content>
-    <tabTrigger>options/always_reload</tabTrigger>
+    <tabTrigger>option/always_reload</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr options always_reload</description>
+    <description>field attr option always_reload</description>
 </snippet>

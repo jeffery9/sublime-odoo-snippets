@@ -2,7 +2,7 @@
     <content><![CDATA[
 'no_open': True${0}
 ]]></content>
-    <tabTrigger>options/no_open</tabTrigger>
+    <tabTrigger>option/no_open</tabTrigger>
     <scope>text.xml meta.tag.xml</scope>
-    <description>field attr options no_open</description>
+    <description>field attr option no_open</description>
 </snippet>
