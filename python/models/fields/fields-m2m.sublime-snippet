@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name}_ids = fields.Many2many(
-    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
+    string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
     comodel_name='${8:model.name}',
     relation='${10:${8/\./_/g}_${9:this_model}_rel}',
     column1='${11:${8/\./_/g}_id}',

@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 ${1:field_name} = fields.Date(
-    string='${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
+    string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
     default=${6:fields.Date.context_today},
 )${0}
 ]]></content>

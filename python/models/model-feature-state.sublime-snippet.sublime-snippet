@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 state = fields.Selection(
-    string='State',
+    string=u'State',
     selection=[('draft', 'Draft'), ('confirmed', 'Confirmed'),  ('close', 'Close'),  ('cancel', 'Cancel')],
     default='draft',
     readonly=True,

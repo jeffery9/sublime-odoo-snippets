@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 company_id = fields.Many2one(
-    string='Company', 
+    string=u'Company', 
     comodel_name='res.company', 
     required=True, 
     default=lambda self: self.env.user.company_id

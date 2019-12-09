@@ -8,7 +8,7 @@ class ${1:ModelName}(models.Model):
     _order = 'name ASC'
 
     name = fields.Char(
-        string='Name',
+        string=u'Name',
         required=True,
         default=lambda self: _('New'),
         copy=False
