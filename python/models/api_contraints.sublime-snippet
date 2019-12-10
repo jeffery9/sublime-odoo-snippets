@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-@api.constrains('${1}')
-def _check_${1}(self):
+@api.constrains('${2}')
+def _check_${2}(self):
     for record in self:
         ${0}
         raise UserError(_(u'${1:error message %s}')%(${3:record.${2:field}}))
