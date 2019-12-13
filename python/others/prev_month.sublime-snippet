@@ -5,5 +5,5 @@ ${0}
 ]]></content>
     <tabTrigger>oovar/previous_month</tabTrigger>
     <scope>source.python</scope>
-    <description>import date and time tools</description>
+    <description>get previous month base on today</description>
 </snippet>

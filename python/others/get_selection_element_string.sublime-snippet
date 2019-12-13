@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+state = dict(record._fields['${1:state}'].selection)[record.${1}]
+${0}
+]]></content>
+    <tabTrigger>oovar/selection_string</tabTrigger>
+    <scope>source.python</scope>
+    <description>get fileds selection string</description>
+</snippet>
