@@ -3,7 +3,7 @@
 previous_month = fields.Date.today() + relativedelta(months=-1)
 ${0}
 ]]></content>
-    <tabTrigger>oovar/previous_month</tabTrigger>
+    <tabTrigger>var/previous_month</tabTrigger>
     <scope>source.python</scope>
     <description>get previous month base on today</description>
 </snippet>
