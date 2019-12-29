@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>attrs/invisible</tabTrigger>
     <scope>text.xml meta.tag.xml string.quoted.double.xml</scope>
-    <description>field attr attrs column_invisible</description>
+    <description>field attrs column_invisible</description>
 </snippet>

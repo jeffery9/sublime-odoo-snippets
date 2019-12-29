@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>attrs/readonly</tabTrigger>
     <scope>text.xml meta.tag.xml string.quoted.double.xml</scope>
-    <description>field attr attrs readonly</description>
+    <description>field attrs readonly</description>
 </snippet>

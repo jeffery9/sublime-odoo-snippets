@@ -4,5 +4,5 @@
 ]]></content>
     <tabTrigger>attrs/required</tabTrigger>
     <scope>text.xml meta.tag.xml string.quoted.double.xml</scope>
-    <description>field attr attrs required</description>
+    <description>field attrs required</description>
 </snippet>
