@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 @api.model
-def default_get(self, fields):
-    res = super(${1:ModelClass}, self).default_get(fields)
+def default_get(self, field_list):
+    res = super(${1:ModelClass}, self).default_get(field_list)
     ${0}
 
     return res

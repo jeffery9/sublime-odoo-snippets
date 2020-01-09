@@ -2,7 +2,7 @@
     <content><![CDATA[
 state = fields.Selection(
     string=u'State',
-    selection=[('draft', 'Draft'), ('confirmed', 'Confirmed'),  ('close', 'Close'),  ('cancel', 'Cancel')],
+    selection=[('draft', 'Draft'), ('confirmed', 'Confirmed'),  ('closed', 'Closed'),  ('cancelled', 'Cancelled')],
     default='draft',
     readonly=True,
 )
@@ -17,15 +17,15 @@ def action_draft(self):
 
 @api.multi
 def action_cancel(self):
-    self.write({'state': 'cancel'})
+    self.write({'state': 'cancelled'})
 
 @api.multi
 def action_close(self):
-    self.write({'state': 'close'})
+    self.write({'state': 'closed'})
 
 ${0}
 ]]></content>
-    <tabTrigger>feature/status</tabTrigger>
+    <tabTrigger>feature/_state</tabTrigger>
     <scope>source.python</scope>
     <description>Adds state support</description>
 </snippet>

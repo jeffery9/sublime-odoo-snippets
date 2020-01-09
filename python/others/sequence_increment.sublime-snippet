@@ -3,8 +3,8 @@
 line_number = fields.Integer(string=u'Line Number', default=10)
 
 @api.model
-def default_get(self, fields):
-    default_values = super(${1:ModelClass}, self).default_get(fields)
+def default_get(self, field_list):
+    default_values = super(${1:ModelClass}, self).default_get(field_list)
 
     line_ids = self.env.context.get('${2:line_ids}', False)
     if line_ids:
