@@ -14,7 +14,7 @@ def _browse(cls, env, ids):
         :return: a recordset
     """
 
-    result = ${1:class_name}._browse(env, ids)
+    result = ${1:MODEL_CLASS}._browse(env, ids)
     ${0}
     return result
 ]]></content>

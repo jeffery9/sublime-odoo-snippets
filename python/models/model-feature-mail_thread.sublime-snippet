@@ -5,5 +5,5 @@ _inherit = ['mail.thread', 'mail.activity.mixin'${0}]
 ]]></content>
     <tabTrigger>feature/mail_thread</tabTrigger>
     <scope>source.python</scope>
-    <description>Adds Mail Thread support</description>
+    <description>Adds Messaging support</description>
 </snippet>

@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-'ir.needaction_mixin'${0}
+,'ir.needaction_mixin'${0}
 ]]></content>
-    <tabTrigger>feature/needaction</tabTrigger>
+    <tabTrigger>mixin/needaction</tabTrigger>
     <scope>source.python meta.structure.list.python</scope>
     <description>Adds NeedAction support</description>
 </snippet>

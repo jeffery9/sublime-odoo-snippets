@@ -7,7 +7,7 @@ def fields_get(self, allfields=None, attributes=None):
         if fname.startswith('${2:prefix}'):
             fields_to_hide.append(fname)
 
-    res = super(${1:Model}, self).fields_get(allfields, attributes)
+    res = super(${1:MODEL_CLASS}, self).fields_get(allfields, attributes)
 
     for field in fields_to_hide:
 

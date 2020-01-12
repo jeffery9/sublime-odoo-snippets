@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-,'utm.mixin'${0}
+,'portal.mixin'${0}
 ]]></content>
-    <tabTrigger>mixin/utm</tabTrigger>
+    <tabTrigger>mixin/portal</tabTrigger>
     <scope>source.python meta.structure.list.python</scope>
-    <description>Adds utm support</description>
+    <description>Adds portal support</description>
 </snippet>

@@ -11,7 +11,7 @@ def write(self, values):
         @return: True on success, False otherwise
     """
 
-    result = super(${1:Model_Name}, self).write(values)${0}
+    result = super(${1:MODEL_CLASS}, self).write(values)${0}
 
     return result
 ]]></content>

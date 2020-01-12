@@ -7,7 +7,7 @@ def unlink(self):
             raise UserError(
                 _(u'You cannot delete a document which is not draft or cancelled!')
             )
-    return super(ModelClass, self).unlink()
+    return super(${1:MODEL_CLASS}, self).unlink()
 ]]></content>
     <tabTrigger>method/unlink_restrict</tabTrigger>
     <scope>source.python</scope>

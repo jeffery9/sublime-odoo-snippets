@@ -3,14 +3,14 @@
 @api.multi
 def copy(self, default=None):
     """
-        Create a new record in ${1:ModelName} model from existing one
+        Create a new record in ${1:MODEL_CLASS} model from existing one
         @param default: dict which contains the values to be override during
         copy of object
 
         @return: returns a id of newly created record
     """
 
-    result = super(${1:ModelName}, self).copy(default)
+    result = super(${1:MODEL_CLASS}, self).copy(default)
     ${0}
 
     return result

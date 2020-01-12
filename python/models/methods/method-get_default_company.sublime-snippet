@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+@api.model
+def _get_default_company(self):
+    if not self.env.user.company_id:
+        raise ValidationError(
+            _('There is no default company for the current user!'))
+    return self.env.user.company_id.id
+    
+]]></content>
+    <tabTrigger>method/_get_default_company</tabTrigger>
+    <scope>source.python</scope>
+    <description>_get_default_company method signature</description>
+</snippet>

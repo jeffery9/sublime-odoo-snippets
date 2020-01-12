@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+return {'type': 'ir.actions.client'
+'tag': '{$1: TAG}'
+
+${0}
+]]></content>
+    <tabTrigger>return/client_action</tabTrigger>
+    <scope>source.python</scope>
+    <description>close window</description>
+</snippet>
