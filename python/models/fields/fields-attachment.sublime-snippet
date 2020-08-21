@@ -1,6 +1,9 @@
 <snippet>
     <content><![CDATA[
-${1:attachment} = fields.Binary(string=u'${3:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}', attachment=True)
+${1:attachment} = fields.Binary(
+    string=u'${3:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}', 
+    attachment=True
+)
 ]]></content>
     <tabTrigger>fields/Attachment</tabTrigger>
     <scope>source.python</scope>

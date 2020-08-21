@@ -5,7 +5,7 @@
     <field name="name">${1:Human readable name}</field>
     <field name="res_model">${2:model.name}</field>
     <field name="view_mode">${3:tree,form}</field>
-    <field name="view_type">${4:form}</field>
+    <!-- <field name="view_type">${4:form}</field> -->
     <field name="target">${5:current}</field>${7:
     <field name="domain">[${6:}]</field>}${9:
     <field name="context">${8:\{\}}</field>}${11:

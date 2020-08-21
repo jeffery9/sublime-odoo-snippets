@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-default=lambda self: self.env.user${0}
+deprecated=True{0}
 ]]></content>
-    <tabTrigger>default/user</tabTrigger>
+    <tabTrigger>deprecated</tabTrigger>
     <scope>source.python meta.function-call.arguments.python</scope>
-    <description>Field attribute: default lambda get current user</description>
+    <description>Field attribute: deprecated</description>
 </snippet>

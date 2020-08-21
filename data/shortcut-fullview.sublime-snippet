@@ -78,7 +78,7 @@
     <field name="name">${1/(.)/\1/g}</field>
     <field name="res_model">${2/\.+/\./g}</field>
     <field name="view_mode">tree,form</field>
-    <field name="view_type">form</field>
+    <!-- <field name="view_type">form</field> -->
     <field name="target">current</field>
     <field name="domain">${4/(.)/\1/g}</field>
     <field name="context">${5/(.)/\1/g}</field>

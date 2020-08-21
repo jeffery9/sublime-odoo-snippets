@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+user_id = fields.Many2one(
+    string=u'User', 
+    comodel_name='res.users', 
+    required=True, 
+    default=lambda self: self.env.user.id
+)
+]]></content>
+    <tabTrigger>field/user_id</tabTrigger>
+    <scope>source.python</scope>
+    <descriptio>Field user_id</description>
+</snippet>

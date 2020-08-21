@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 ${0}
 ]]></content>
-    <tabTrigger>coding</tabTrigger>
+    <tabTrigger>file/coding</tabTrigger>
     <scope>source.python</scope>
     <description>utf-8 coding</description>
 </snippet>

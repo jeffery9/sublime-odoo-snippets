@@ -6,7 +6,7 @@ class ${1:ModelName}(models.TransientModel):
 
     ${0}
 ]]></content>
-    <tabTrigger>model/transient</tabTrigger>
+    <tabTrigger>model transient</tabTrigger>
     <scope>source.python</scope>
     <description>Odoo transient Model Class</description>
 </snippet>

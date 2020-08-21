@@ -2,7 +2,9 @@
     <content><![CDATA[
 ${1:field_name}_ref = fields.Reference(
     string=u'${2:${1/((^.)|(_(.)))/(?2:\u$2)(?3:\ \u$4)/g}}',
-    selection=[('${8:model.name}', '${9:String}'),('${10:model.name}', '${11:String}')]
+    selection=[('${8:model.name}', '${9:String}'),
+                ('${10:model.name}', '${11:String}')
+                ]
 )${0}
 ]]></content>
     <tabTrigger>fields/Reference</tabTrigger>

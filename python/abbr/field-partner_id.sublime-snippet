@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+partner_id = fields.Many2one(
+    string=u'Partner', 
+    comodel_name='res.partner', 
+    required=True, 
+)
+]]></content>
+    <tabTrigger>field/partner_id</tabTrigger>
+    <scope>source.python</scope>
+    <descriptio>Field partner_id</description>
+</snippet>
